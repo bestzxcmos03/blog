@@ -7,9 +7,8 @@ $white: #fff;
 $black: #000000;
 $darken: #232931;
 
-$primary: #3e64ff;
+$primary: #FFBF00;
 $secondary: #a0f669;
-
 
 
 @mixin border-radius($radius) {
@@ -999,7 +998,7 @@ h1, h2, h3, h4, h5,
 		bottom: 0;
 		content: '';
 		background: $primary;
-		opacity: .7;
+		opacity: .4;
 	}
 	h2{
 		color: $white;
