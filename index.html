@@ -4,7 +4,8 @@
     <title>itar_ - My full resume is here!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -25,16 +26,17 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target " id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="index.html" style="padding-left:0.4%"><span>I</span> tar_</a>
+        <a class="navbar-brand" href="index.html" style="padding-left:0.4%; "><span>I</span> tar_</a>
         <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
                 data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
 
-        <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul class="navbar-nav nav ml-auto">
+
+        <div class="collapse navbar-collapse english section" id="ftco-nav">
+            <ul class="navbar-nav nav ml-auto english">
                 <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
@@ -42,7 +44,24 @@
                 <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Certificates</span></a></li>
                 <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Projects</span></a></li>
                 <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                <li class="nav-item"><a href="#home-section" class="nav-link icon translate lang responsive"
+                                        style="background-image:url(images/eng.png);width: 107%"><span>Language</span></a>
+                </li>
             </ul>
+
+            <ul class="navbar-nav nav ml-auto thai">
+                <li class="nav-item"><a href="#home-section" class="nav-link"><span>หน้าหลัก</span></a></li>
+                <li class="nav-item"><a href="#about-section" class="nav-link"><span>เกี่ยวกับ</span></a></li>
+                <li class="nav-item"><a href="#resume-section" class="nav-link"><span>เรซูเม่</span></a></li>
+                <li class="nav-item"><a href="#services-section" class="nav-link"><span>หน้าที่</span></a></li>
+                <li class="nav-item"><a href="#projects-section" class="nav-link"><span>ประกาศนียบัตร</span></a></li>
+                <li class="nav-item"><a href="#blog-section" class="nav-link"><span>งานของผม</span></a></li>
+                <li class="nav-item"><a href="#contact-section" class="nav-link"><span>ติดต่อ</span></a></li>
+                <li class="nav-item"><a href="#home-section" class="nav-link icon translate lang responsive"
+                                        style="background-image:url(images/eng.png);width: 107%"><span>เปลี่ยนภาษา</span></a>
+                </li>
+            </ul>
+
         </div>
     </div>
 </nav>
@@ -51,15 +70,27 @@
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
             <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-                <div class="text text-center">
-                    <span class="subheading">Hey! I am</span>
-                    <h1>Pannawat Niyomrat</h1>
-                    <h2>I'm a
-                        <span
-                                class="txt-rotate"
-                                data-period="2000"
-                                data-rotate='[ "Data Analyst.", "Full Stack Dev.", "Database Admin.", "Artist." ]'></span>
-                    </h2>
+                <div class="section">
+                    <div class="text text-center english">
+                        <span class="subheading ">Hey! I am</span>
+                        <h1>Pannawat Niyomrat</h1>
+                        <h2>I'm a
+                            <span
+                                    class="txt-rotate"
+                                    data-period="2000"
+                                    data-rotate='[ "Data Analyst.", "Full Stack Dev.", "Database Admin.", "Artist." ]'></span>
+                        </h2>
+                    </div>
+                    <div class="text text-center thai">
+                        <span class="subheading ">สวัสดี! ผมชือ</span>
+                        <h1>ปัณณวัฒน์ นิยมรัท</h1>
+                        <h2>ผมชื่นชอบการ
+                            <span
+                                    class="txt-rotate"
+                                    data-period="2000"
+                                    data-rotate='[ "วิเคราะห์ข้อมูล", "ทำเว็ปไซต์ทั้งหมด", "ดูแลฐานข้อมูล", "ออกแบบงานสร้างสรรค์" ]'></span>
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -147,7 +178,7 @@
                         <li><a href="#page-1">Education</a></li>
                         <li><a href="#page-2">Experience</a></li>
                         <li><a href="#page-3">Skills</a></li>
-                        <li><a href="#page-4">Awards</a></li>
+                        <li><a href="#page-4">Services</a></li>
                     </ul>
                 </nav>
             </div>
@@ -422,61 +453,6 @@
                         </div>
                     </div>
                 </div>
-                <div id="page-4" class="page four">
-                    <h2 class="heading">Awards</h2>
-                    <div class="resume-wrap d-flex ftco-animate">
-                        <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="flaticon-ideas"></span>
-                        </div>
-                        <div class="text pl-3">
-                            <span class="date">2014-2015</span>
-                            <h2>Top 10 Web Developer</h2>
-                            <span class="position">Cambridge University</span>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                                your mouth.</p>
-                        </div>
-                    </div>
-                    <div class="resume-wrap d-flex ftco-animate">
-                        <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="flaticon-ideas"></span>
-                        </div>
-                        <div class="text pl-3">
-                            <span class="date">2014-2015</span>
-                            <h2>Top 5 LeaderShip Exellence Winner</h2>
-                            <span class="position">Cambridge University</span>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                                your mouth.</p>
-                        </div>
-                    </div>
-                    <div class="resume-wrap d-flex ftco-animate">
-                        <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="flaticon-ideas"></span>
-                        </div>
-                        <div class="text pl-3">
-                            <span class="date">2014-2015</span>
-                            <h2>Top 4 Web Tester</h2>
-                            <span class="position">Cambridge University</span>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                                your mouth.</p>
-                        </div>
-                    </div>
-                    <div class="resume-wrap d-flex ftco-animate">
-                        <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="flaticon-ideas"></span>
-                        </div>
-                        <div class="text pl-3">
-                            <span class="date">2014-2015</span>
-                            <h2>Art &amp; Creative Director</h2>
-                            <span class="position">Cambridge University</span>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                                your mouth.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -485,7 +461,7 @@
 <section class="ftco-section" id="services-section">
     <div class="container-fluid px-md-5">
         <div class="row justify-content-center py-5 mt-5">
-            <div class="col-md-12 heading-section text-center ftco-animate">
+            <div class="col-md-12 heading-section text-center ftco-animate" id="page-4">
                 <h1 class="big big-2">Services</h1>
                 <h2 class="mb-4">Services</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
@@ -682,18 +658,21 @@
         <div class="row d-flex">
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry justify-content-end">
-                    <a href="http://www.vbrentals.rf.gd" class="block-20 zoom" style="background-image: url('images/bus.jpg');">
+                    <a href="http://www.vbrentals.rf.gd" class="block-20 zoom"
+                       style="background-image: url('images/bus.jpg');">
                     </a>
                     <div class="text mt-3 float-right d-block">
                         <h3 class="heading">Van & Bus Rentals
                         </h3>
-                        <p>The project from my Web-Development subject. It's about van&bus rental, User can rent the vehicle which selected and user's information will kept in database</p>
+                        <p>The project from my Web-Development subject. It's about van&bus rental, User can rent the
+                            vehicle which selected and user's information will kept in database</p>
                         <div class="d-flex align-items-center mb-3 meta">
                             <p class="mb-0">
                                 <span>Oct. 08, 2019</span><br>
                                 #Web development<br>
                                 #Database<br>
-                                <a href="http://www.vbrentals.rf.gd" class="mr-2">Click here to visit the website!</a><br>
+                                <a href="http://www.vbrentals.rf.gd" class="mr-2">Click here to visit the
+                                    website!</a><br>
                                 <a href="#" class="meta-chat">My slides PDF here!</a>
                             </p>
                         </div>
@@ -707,7 +686,8 @@
                     <div class="text mt-3 float-right d-block">
                         <h3 class="heading">Dog Breed Detection using YOLOv3<br>
                         </h3>
-                        <p>This project came from... I've seen dogs in social media it's so cute but I'm dont't know the breed of that dog.</p>
+                        <p>This project came from... I've seen dogs in social media it's so cute but I'm dont't know the
+                            breed of that dog.</p>
                         <div class="d-flex align-items-center mb-3 meta">
                             <p class="mb-0">
                                 <span>Oct. 23, 2019</span><br>
@@ -727,7 +707,8 @@
                         <h3 class="heading">Khon gesture detection on website (Thesis)<br>
                         </h3>
                         <p>This is my thesis of my study in KMUTNB. It have 4 main parts</p>
-                        <p>1. Collect Datasets<br>2. Process the Datasets<br>3. Train & Test <br>4. Processing on the website</p>
+                        <p>1. Collect Datasets<br>2. Process the Datasets<br>3. Train & Test <br>4. Processing on the
+                            website</p>
                         <div class="d-flex align-items-center mb-3 meta">
                             <p class="mb-0">
                                 <span>Feb. 14, 2020</span><br>
@@ -900,35 +881,14 @@
     </svg>
 </div>
 
-<b>Click text to translate:</b>
-<hr>
-<div class="section">
-    <div class="english">
-        CHAPTER I Down the Rabbit-Hole
-    </div>
-    <div class="text">
-        Capítulo I Descendo a Toca do Coelho
-    </div>
-</div>
-<hr>
-<div class="section">
-    <div class="english">
-        CHAPTER II Up the Rabbit-Hole
-    </div>
-    <div class="text">
-        Capítulo II Ascendo a Toca do Coelho
-    </div>
-</div>
+
 <script>
-    $( document ).ready(function() {
-        $('.section').each(function() {
-            // Save the two div references in a var so they can be called later within the event handler
-            var translationDiv = $(this).children('.english');
-            var originalDiv = $(this).children('.text'); // Remove if you do not want to hide original text upon toggling
-
+    $(document).ready(function () {
+        $('.section').each(function () {
+            var translationDiv = $(this).children('.thai');
             translationDiv.hide(); // Sets initial translation to hide. You can alternatively do this via css such that all .english { display: none; }.
-
-            $(this).click(function(e) {
+            var originalDiv = $(this).children('.english'); // Remove if you do not want to hide original text upon toggling
+            $('.translate').click(function (e) {
                 translationDiv.toggle();
                 originalDiv.toggle(); // Remove if you do not want to hide original text upon toggling
             });
