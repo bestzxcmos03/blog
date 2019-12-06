@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="scss/mycss.css">
@@ -900,7 +900,41 @@
     </svg>
 </div>
 
+<b>Click text to translate:</b>
+<hr>
+<div class="section">
+    <div class="english">
+        CHAPTER I Down the Rabbit-Hole
+    </div>
+    <div class="text">
+        Capítulo I Descendo a Toca do Coelho
+    </div>
+</div>
+<hr>
+<div class="section">
+    <div class="english">
+        CHAPTER II Up the Rabbit-Hole
+    </div>
+    <div class="text">
+        Capítulo II Ascendo a Toca do Coelho
+    </div>
+</div>
+<script>
+    $( document ).ready(function() {
+        $('.section').each(function() {
+            // Save the two div references in a var so they can be called later within the event handler
+            var translationDiv = $(this).children('.english');
+            var originalDiv = $(this).children('.text'); // Remove if you do not want to hide original text upon toggling
 
+            translationDiv.hide(); // Sets initial translation to hide. You can alternatively do this via css such that all .english { display: none; }.
+
+            $(this).click(function(e) {
+                translationDiv.toggle();
+                originalDiv.toggle(); // Remove if you do not want to hide original text upon toggling
+            });
+        });
+    });
+</script>
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
 <script src="js/popper.min.js"></script>
