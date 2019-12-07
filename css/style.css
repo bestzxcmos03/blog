@@ -31,6 +31,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
+
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
@@ -51,7 +52,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -8400,9 +8401,9 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .1;
+    opacity: .9;
     width: 50%;
-    background: #3e64ff; }
+    background: #ffc927; }
   .hero-wrap .text {
     width: 100%; }
 
@@ -8702,7 +8703,9 @@ h1, h2, h3, h4, h5,
     font-size: 30px;
     margin-bottom: 30px;
     color: #3e64ff; }
-
+.end{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 .resume-wrap {
   width: 100%;
   margin-bottom: 30px;
@@ -9002,7 +9005,7 @@ h1, h2, h3, h4, h5,
         .project .text span {
           color: rgba(255, 255, 255, 0.8); } }
   .project:hover .overlay, .project:focus .overlay {
-    opacity: .8; }
+    opacity: 1.0; }
   .project:hover .text, .project:focus .text {
     opacity: 1; }
 
